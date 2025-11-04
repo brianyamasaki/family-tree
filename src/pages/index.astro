@@ -1,16 +1,19 @@
 ---
-
+import { SITE_TITLE } from "@src/consts";
+import PageHeader from "@components/PageHeader.astro";
+import PeopleTable from "@src/components/PeopleTable";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
+	<PageHeader />
 	<body>
-		<h1>Astro</h1>
+		<h1>{SITE_TITLE}</h1>
+		<PeopleTable client:idle />
 	</body>
 </html>
+
+<style lang="scss">
+	h1 {
+		text-align: center;
+	}
+</style>
