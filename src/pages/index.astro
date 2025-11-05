@@ -1,18 +1,27 @@
 ---
 import { SITE_TITLE } from "@src/consts";
 import PageHeader from "@components/PageHeader.astro";
-import PeopleTable from "@src/components/PeopleTable";
+import NameList from "@src/components/NameList";
+// import PeopleTable from "@src/components/PeopleTable";
 ---
 
 <html lang="en">
 	<PageHeader />
 	<body>
+		<main>
 		<h1>{SITE_TITLE}</h1>
-		<PeopleTable client:idle />
+		<!-- <PeopleTable client:idle /> -->
+		<NameList client:idle />
+		</main>
 	</body>
 </html>
 
 <style lang="scss">
+	main {
+		max-width: 72rem;
+		text-align: center;
+		margin:auto;
+	}
 	h1 {
 		text-align: center;
 	}

@@ -74,7 +74,7 @@
     "fname": "Stacy",
     "lname": "Yamasaki",
     "mname": "Akashi",
-    "kanji": "",
+    "kanji": "明志",
     "sex": "M",
     "parentM": "4",
     "parentF": "7"
@@ -128,5 +128,45 @@
     "sex": "F",
     "parentM": "5",
     "parentF": "6"
+  },
+  {
+    "id": "15",
+    "fname": "Stephen",
+    "lname": "Yamasaki",
+    "mname": "Koji",
+    "kanji": "高志",
+    "sex": "M",
+    "parentM": "8",
+    "parentF": ""
+  },
+  {
+    "id": "16",
+    "fname": "Colin",
+    "lname": "Yamasaki",
+    "mname": "Keiji",
+    "kanji": "啓志",
+    "sex": "F",
+    "parentM": "8",
+    "parentF": ""
+  },
+  {
+    "id": "17",
+    "fname": "Tyler",
+    "lname": "Habu",
+    "mname": "Mikio",
+    "kanji": "",
+    "sex": "M",
+    "parentM": "",
+    "parentF": "10"
+  },
+  {
+    "id": "18",
+    "fname": "Christopher",
+    "lname": "Yamasaki",
+    "mname": "Kenichi",
+    "kanji": "賢一",
+    "sex": "M",
+    "parentM": "9",
+    "parentF": ""
   }
 ]
