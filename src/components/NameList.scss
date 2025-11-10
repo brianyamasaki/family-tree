@@ -5,4 +5,11 @@ table {
   .kanji {
     font-size: 1.8rem;
   }
+  .selectable:hover {
+    color:blue;
+    cursor: pointer;
+  }
+  .selected {
+    background-color: aquamarine;
+  }
 }

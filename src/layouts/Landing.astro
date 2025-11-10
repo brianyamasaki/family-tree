@@ -1,0 +1,22 @@
+---
+import PageHeader from "@components/PageHeader.astro";
+const { title } = Astro.props.frontmatter || Astro.props;
+
+---
+<!DOCTYPE html>
+<html lang="en">
+	<PageHeader title={title} />
+	<body>
+		<main>
+			<slot />
+  	</main>
+	</body>
+</html>
+
+<style lang="scss">
+	main {
+		max-width: 72rem;
+		text-align: center;
+		margin:auto;
+	}
+</style>

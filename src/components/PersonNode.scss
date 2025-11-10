@@ -1,0 +1,14 @@
+.person-bubble {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  font-size: 1.4rem;
+  &.selectable {
+    background-color: azure;
+    &:hover {
+      cursor: pointer;
+      background-color:aquamarine;
+    }
+  }
+}

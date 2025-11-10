@@ -63,10 +63,10 @@ export class Person {
   get kanji() {
     return this.m_kanji;
   }
-  get mother() {
+  get motherId() {
     return this.parentM;
   }
-  get father() {
+  get fatherId() {
     return this.parentF;
   }
   get children() {
@@ -79,6 +79,7 @@ export class Person {
 
   details() {
     return {
+      id: this.id,
       firstName: this.f_name,
       lastName: this.l_name,
       middleName: this.m_name,

@@ -1,0 +1,19 @@
+#wrapper {
+  width: 100%;
+}
+#parents {
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+#children {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 2rem;
+  color:rgba(0,0,0, .4);
+  margin-bottom: 0;
+}

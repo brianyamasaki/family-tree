@@ -1,25 +1,37 @@
 import { allPeople } from '@src/People';
 import '@components/NameList.scss'
 
-const NameList = () => {
+type Props = {
+  id: number;
+  nextPerson: (id:number) => void;
+}
+
+const NameList = ({id, nextPerson}: Props) => {
   const details = allPeople.getListDetails();
 
   return (
     <table>
+      <tbody>
       {
         details.map(detail => {
           return (
-            <tr>
-            <td key={`${detail.firstName}${detail.lastName}`}>
-              {`${detail.firstName} ${detail.lastName}`}
-            </td>
-            <td className='kanji'>
-              {detail.kanji}
-            </td>
+            <tr 
+              className={`${id === detail.id ? 'selected':''} selectable`}
+              title='Click to select' 
+              onClick={() => nextPerson(detail.id)}
+              key={`${detail.firstName}${detail.lastName}`}
+            >
+              <td>
+                {`${detail.firstName} ${detail.lastName}`}
+              </td>
+              <td className='kanji'>
+                {detail.kanji}
+              </td>
             </tr>
           )
         })
       }
+      </tbody>
     </table>
   )
 }
