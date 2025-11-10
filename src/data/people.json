@@ -137,7 +137,7 @@
     "kanji": "高志",
     "sex": "M",
     "parentM": "8",
-    "parentF": ""
+    "parentF": "20"
   },
   {
     "id": "16",
@@ -147,7 +147,7 @@
     "kanji": "啓志",
     "sex": "F",
     "parentM": "8",
-    "parentF": ""
+    "parentF": "20"
   },
   {
     "id": "17",
@@ -156,7 +156,7 @@
     "mname": "Mikio",
     "kanji": "",
     "sex": "M",
-    "parentM": "",
+    "parentM": "19",
     "parentF": "10"
   },
   {
@@ -167,6 +167,36 @@
     "kanji": "賢一",
     "sex": "M",
     "parentM": "9",
+    "parentF": "21"
+  },
+  {
+    "id": "19",
+    "fname": "Gordon",
+    "lname": "Habu",
+    "mname": "",
+    "kanji": "",
+    "sex": "M",
+    "parentM": "",
+    "parentF": ""
+  },
+  {
+    "id": "20",
+    "fname": "Debora",
+    "lname": "Chen",
+    "mname": "",
+    "kanji": "",
+    "sex": "F",
+    "parentM": "",
+    "parentF": ""
+  },
+  {
+    "id": "21",
+    "fname": "Mie",
+    "lname": "Hayashi",
+    "mname": "",
+    "kanji": "",
+    "sex": "F",
+    "parentM": "",
     "parentF": ""
   }
 ]
