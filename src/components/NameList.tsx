@@ -24,9 +24,6 @@ const NameList = ({id, nextPerson}: Props) => {
               <td>
                 {`${detail.firstName} ${detail.lastName}`}
               </td>
-              <td className='kanji'>
-                {detail.kanji}
-              </td>
             </tr>
           )
         })

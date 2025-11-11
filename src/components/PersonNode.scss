@@ -1,14 +1,26 @@
 .person-bubble {
-  border: 1px solid black;
+  border: 2pt solid gray;
   border-radius: 50%;
   padding: 1rem;
   margin: 0.5rem 1rem;
-  font-size: 1.4rem;
+  width: 12rem;
+  height: 10rem;
   &.selectable {
     background-color: azure;
     &:hover {
       cursor: pointer;
       background-color:aquamarine;
+    }
+  }
+  .first-last-name {
+      font-size: 1.4rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    
+    strong {
+      font-size:1.3rem;
     }
   }
 }

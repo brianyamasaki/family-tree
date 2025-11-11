@@ -22,7 +22,7 @@ const PersonDiagram = ({id, people, nextPerson}: Props) => {
     return (
       <>
         <h4 className="label">Children</h4>
-        <div id="children">
+        <div className="children">
           {person.children.map((childId) => {
             return (
               <PersonNode 
@@ -39,11 +39,13 @@ const PersonDiagram = ({id, people, nextPerson}: Props) => {
   return (
     <div id="wrapper">
       <h4 className="label">Parents</h4>
-      <div id="parents">
+      <div className="parents">
         <PersonNode person={father} nextPerson={nextPerson}/>
         <PersonNode person={mother} nextPerson={nextPerson}/>
       </div>
-      <PersonNode person={person} nextPerson={nextPerson}/>
+      <div className="self">
+        <PersonNode person={person} nextPerson={nextPerson}/>
+      </div>
       { renderChildren()}
     </div>
   );
