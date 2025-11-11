@@ -1,8 +1,11 @@
-table {
+ul {
   list-style: none;
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.3rem;
+  li {
+    margin-bottom:0.3rem
+  }
   .kanji {
     font-size: 1.8rem;
     font-family: Georgia, 'Times New Roman', Times, serif;

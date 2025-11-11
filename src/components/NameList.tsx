@@ -10,26 +10,22 @@ const NameList = ({id, nextPerson}: Props) => {
   const details = allPeople.getListDetails();
 
   return (
-    <table>
-      <tbody>
+    <ul>
       {
         details.map(detail => {
           return (
-            <tr 
+            <li 
               className={`${id === detail.id ? 'selected':''} selectable`}
               title='Click to select' 
               onClick={() => nextPerson(detail.id)}
               key={`${detail.firstName}${detail.lastName}`}
             >
-              <td>
-                {`${detail.firstName} ${detail.lastName}`}
-              </td>
-            </tr>
+              {`${detail.firstName} ${detail.lastName}`}
+            </li>
           )
         })
-      }
-      </tbody>
-    </table>
+      }      
+    </ul>
   )
 }
 
