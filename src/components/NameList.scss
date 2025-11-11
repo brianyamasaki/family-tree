@@ -3,8 +3,9 @@ ul {
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.3rem;
+  min-width: 15rem;
   li {
-    margin-bottom:0.3rem
+    padding: 0.2rem 0.5rem;
   }
   .kanji {
     font-size: 1.8rem;
@@ -15,6 +16,10 @@ ul {
     cursor: pointer;
   }
   .selected {
-    background-color: aquamarine;
+    background-color: black;
+    color: white;
+    &:hover {
+      color: gray
+    }
   }
 }
