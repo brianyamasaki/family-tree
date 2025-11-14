@@ -44,7 +44,8 @@ const PersonDiagram = ({id, people, nextPerson}: Props) => {
         <PersonNode person={mother} nextPerson={nextPerson}/>
       </div>
       <div className="self">
-        <PersonNode person={person} nextPerson={nextPerson}/>
+        <h3>{person.firstName} {person.middleName} {person.lastName}</h3>
+        <p>{person.kanji ? person.kanji : null}</p>
       </div>
       { renderChildren()}
     </div>

@@ -8,8 +8,15 @@
   }
 
   .self {
-    display: flex;
     justify-content: center;
+    margin:0 2rem;
+    h3 {
+      font-size: 2rem;
+      margin-bottom:0.5rem;
+    }
+    p {
+      font-size: 2rem;
+    }
   }
 
   .children {
