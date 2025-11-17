@@ -1,12 +1,13 @@
 export type PersonCsv = {
   id:string;
-  fname: string;
-  lname: string;
-  mname: string;
+  first_name: string;
+  last_name: string;
+  middle_name: string;
+  family_kanji: string;
   kanji: string;
   sex: string;
-  parentM: string;
-  parentF: string;
+  father: string;
+  mother: string;
 }
 
 export type PersonNode = {
@@ -38,13 +39,13 @@ export class Person {
 
   constructor(csv: PersonCsv) {
     this.id = parseInt(csv.id, 10) || 0;
-    this.m_firstName = csv.fname;
-    this.m_lastName = csv.lname;
-    this.m_middleName = csv.mname;
+    this.m_firstName = csv.first_name;
+    this.m_lastName = csv.last_name;
+    this.m_middleName = csv.middle_name;
     this.m_kanji = csv.kanji;
     this.m_sex = csv.sex.toUpperCase() === 'M' ? Sex.Male : Sex.Female;
-    this.parentM = parseInt(csv.parentM, 10) || -1;
-    this.parentF = parseInt(csv.parentF, 10) || -1;
+    this.parentM = parseInt(csv.father, 10) || -1;
+    this.parentF = parseInt(csv.mother, 10) || -1;
     this.m_children = [];
   }
 
