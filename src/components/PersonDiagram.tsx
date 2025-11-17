@@ -1,5 +1,6 @@
 import { People } from "@src/People";
 import PersonNode from "@components/PersonNode";
+import ParentPane from "./ParentPane";
 import './PersonDiagram.scss';
 
 type Props = {
@@ -38,10 +39,8 @@ const PersonDiagram = ({id, people, nextPerson}: Props) => {
   }
   return (
     <div id="wrapper">
-      <h4 className="label">Parents</h4>
       <div className="parents">
-        <PersonNode person={father} nextPerson={nextPerson}/>
-        <PersonNode person={mother} nextPerson={nextPerson}/>
+        <ParentPane parents={[father, mother]} nextPerson={nextPerson}/>
       </div>
       <div className="self">
         <h3>{person.firstName} {person.middleName} {person.lastName}</h3>
