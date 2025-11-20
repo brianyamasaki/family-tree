@@ -7,10 +7,16 @@ import { SITE_TITLE } from "@src/consts";
 	title={SITE_TITLE}
 >
 	<h1>{SITE_TITLE}</h1>
-	<p>Welcome to the Yamasaki Family Tree</p>
+	<p>Welcome to the Family Tree Project</p>
 
 	<h2>Starting Points</h2>
 	<p>Here are some starting point to begin searching through the family tree.</p>
+	<ul class="starting-points">
+		<li><a href="/person/0">Kumazo Yamasaki (patriach of the Fife family)</a></li>
+		<li><a href="/person/1">Mitsuko Yamasaki (nee Yano - matriach of the Fife family)</a></li>
+		<li><a href="/person/28">Naoharu Kinoshita (nee Kayama - patriarch of the Tokyo Kinoshia family)</a></li>
+		<li><a href="/person/29">Chieko Kinoshita (matriarch of the Tokyo Kinoshia family)</a></li>
+	</ul>
 	
 	<h2>Search</h2>
 	<p>Search for a name by going to our <a href="/search">Search page</a>.</p>
@@ -19,5 +25,16 @@ import { SITE_TITLE } from "@src/consts";
 <style lang="scss">
 	h1 {
 		text-align: center;
+	}
+	ul.starting-points {
+		list-style: none;
+		padding: 0;
+		li {
+			padding: 0.25rem 0;
+		}
+		a {
+			font-size: 1.3rem;
+			text-decoration: none;
+		}
 	}
 </style>

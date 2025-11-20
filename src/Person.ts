@@ -4,6 +4,7 @@ export type Person = {
   lastName: string;
   middleName: string;
   kanji: string;
+  family_kanji:string;
   sex: string;
   motherId: number;
   fatherId: number;

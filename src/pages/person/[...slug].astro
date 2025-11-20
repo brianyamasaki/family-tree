@@ -1,6 +1,8 @@
 ---
 import { allPeople } from '@src/People';
+import type { Person } from '@src/Person';
 import Layout from '@layouts/Person.astro';
+import { Children } from 'react';
 
 export async function getStaticPaths() {
 	return allPeople.getList().map((relative, i) => {
@@ -11,14 +13,104 @@ export async function getStaticPaths() {
 			}
 	}});
 }
-const personId = Astro.props;
-
+const person = Astro.props?.data;
+const spouse = person.spouses.length > 0 ? allPeople.getPerson(person.spouses[0]): null;
+const children = person.children;
+const siblings = person.siblings;
+const mother = person.motherId > 0 ? allPeople.getPerson(person.motherId): null;
+const father = person.fatherId > 0 ? allPeople.getPerson(person.fatherId): null;
 ---
 
 <Layout>
-  <h1>{personId.data.firstName} {personId.data.lastName}</h1>
+  <h1>Details for {person.firstName} {person.lastName}</h1>
+	<h2>{person.family_kanji}&nbsp;{person.kanji}</h2>
+	{person.middleName ? <p><strong>Middle Name:</strong> {person.middleName}</p>: ''}
+	<div class="side-by-side">
+		{
+			father ? 
+			<div>
+				<p class="column-head">Father:</p>
+				<ul>
+					<li><a href={`/person/${father.id-2}`}>{`${father.firstName} ${father.lastName} (${father.family_kanji} ${father.kanji})`}</a></li>
+				</ul>
+			</div>
+			: null
+		}
+		{
+			mother ? 
+			<div>
+				<p class="column-head">Mother:</p>
+				<ul>
+					<li><a href={`/person/${mother.id-2}`}>{`${mother.firstName} ${mother.lastName} (${mother.family_kanji} ${mother.kanji})`}</a></li>
+				</ul>
+			</div>
+			: null
+		}
+		</div>
+	</div>
+
+	<div class="side-by-side">
+	{
+		spouse ? 
+			<div>
+				<p class="column-head">Spouse:</p>
+				<ul>
+					<li><a href={`/person/${spouse.id-2}`}>{`${spouse.firstName} ${spouse.lastName} (${spouse.family_kanji} ${spouse.kanji})`}</a></li>
+				</ul>
+			</div>
+		: null
+	}
+	{
+		children.length > 0 ?
+			<div>
+				<p class="column-head">Children:</p>
+				<ul>
+					{children.map(childId => {
+						const child = allPeople.getPerson(childId);
+						return (<li><a href={`/person/${child.id-2}`}>{`${child.firstName} ${child.lastName} (${child.family_kanji} ${child.kanji})`}</a></li>)
+					})
+				} 
+				</ul>
+			</div>
+		: null
+
+	}
+	{
+		siblings.length > 0 ?
+			<div>
+				<p class="column-head">Siblings:</p>
+				<ul>
+					{siblings.map(sibId => {
+						const sibling = allPeople.getPerson(sibId);
+						return (<li><a href={`/person/${sibling.id-2}`}>{`${sibling.firstName} ${sibling.lastName} (${sibling.family_kanji} ${sibling.kanji})`}</a></li>)
+					})
+				} 
+				</ul>
+			</div>
+		: null
+	}
+
+	</div>
 </Layout>
 
 <style lang="scss">
-	
+	ul {
+		list-style: none;
+		padding: 0;
+		font-size: 1.2rem;
+	}
+	a {
+		text-decoration: none;
+		color: purple;
+	}
+	.column-head {
+		margin-bottom: 0.2rem;
+		font-size: 1.5rem;
+	}
+	.side-by-side {
+		display:flex;
+		gap: 1rem;
+		margin: auto;
+		justify-content: space-around;
+	}
 </style>

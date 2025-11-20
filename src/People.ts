@@ -13,7 +13,7 @@ export class People {
   }
   
   getPerson(id: number) {
-    return this.list[id];
+    return this.list[id-2];
   }
 }
 
