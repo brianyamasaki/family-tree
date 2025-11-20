@@ -1,0 +1,24 @@
+---
+import { allPeople } from '@src/People';
+import Layout from '@layouts/Person.astro';
+
+export async function getStaticPaths() {
+	return allPeople.getList().map((relative, i) => {
+		return {
+			params: { slug: i },
+			props: {
+				data: relative
+			}
+	}});
+}
+const personId = Astro.props;
+
+---
+
+<Layout>
+  <h1>{personId.data.firstName} {personId.data.lastName}</h1>
+</Layout>
+
+<style lang="scss">
+	
+</style>

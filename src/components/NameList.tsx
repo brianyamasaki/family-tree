@@ -1,4 +1,5 @@
-import { allPeople } from '@src/People';
+import type {Person } from '@src/Person';
+import people from '@data/people.json';
 import '@components/NameList.scss'
 
 type Props = {
@@ -7,12 +8,11 @@ type Props = {
 }
 
 const NameList = ({id, nextPerson}: Props) => {
-  const details = allPeople.getListDetails();
 
   return (
     <ul>
       {
-        details.map(detail => {
+        people.map(detail => {
           return (
             <li 
               className={`${id === detail.id ? 'selected':''} selectable`}

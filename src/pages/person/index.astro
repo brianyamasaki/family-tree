@@ -1,0 +1,30 @@
+---
+import Layout from '@layouts/Person.astro';
+import { allPeople } from '@src/People';
+---
+
+<Layout>
+  <h1>List of all relatives goes here</h1>
+  <ul>
+  {
+    allPeople.getList().map(person => {
+      return (
+        <li><a href={`/person/${person.id - 2}`}>{person.firstName} {person.lastName}</a></li>
+      )
+    })
+  }
+  </ul>
+</Layout>
+
+<style lang="scss">
+  ul {
+    list-style: none;
+    li {
+      font-size: 1.2rem;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+</style>

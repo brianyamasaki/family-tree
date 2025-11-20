@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import NameList from "@src/components/NameList";
 import PersonDiagram from './PersonDiagram';
-import { allPeople } from '@src/People';
+import people from '@data/people.json';
 import './ShowTree.scss';
 
 const ShowTree = () => {
@@ -16,7 +16,7 @@ const ShowTree = () => {
       <div id="side-by-side">
         <NameList id={currentPerson} nextPerson={nextPerson} />
         <div>
-          <PersonDiagram id={currentPerson} people={allPeople} nextPerson={nextPerson} />
+          <PersonDiagram id={currentPerson} people={people} nextPerson={nextPerson} />
         </div>
       </div>
     </>

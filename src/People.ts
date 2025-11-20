@@ -1,43 +1,20 @@
-import people from '@data/people.json';
-import { Person } from '@src/Person';
+import relatives from '@data/people.json';
+import type { Person } from '@src/Person';
 
 export class People {
-  list:Person[] = [];
+  list:Person[];
 
-  constructor() {
-    people.forEach(item => {
-      this.list.push(new Person(item));
-    })
-
-    this.assignChildren();
-  }
-
-  assignChildren() {
-    this.list.forEach(person => {
-      const father = person.fatherId;
-      if (father > 1) {
-        this.list[father - 2].addChild(person.idnum);
-      }
-      const mother = person.motherId;
-      if (mother > 1) {
-        this.list[mother - 2].addChild(person.idnum);
-      }
-    })
+  constructor(people: Person[]) {
+    this.list = people;
   }
   
   getList() {
     return this.list;
   }
   
-  getListDetails() {
-    return this.list.map(person => {
-      return person.details();
-    })
-  }
-
   getPerson(id: number) {
-    return this.list[id-2];
+    return this.list[id];
   }
 }
 
-export const allPeople = new People();
+export const allPeople = new People(relatives);

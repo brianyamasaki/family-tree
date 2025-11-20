@@ -14,7 +14,6 @@ const PersonDiagram = ({id, people, nextPerson}: Props) => {
     return <h3>Please choose a person at left</h3>
   }
   const person = people.getPerson(id);
-  const personDetails = person.details();
   const father = person.fatherId >= 2 ? people.getPerson(person.fatherId) : null;
   const mother = person.motherId >= 2 ? people.getPerson(person.motherId) : null;
 

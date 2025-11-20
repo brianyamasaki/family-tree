@@ -1,0 +1,35 @@
+---
+// const { title } = Astro.props;
+---
+
+<nav>
+  <div class="brand"><a href="/">Family Tree</a></div>
+  <ul>
+    <li><a href="/person">Individuals</a></li>
+    <li><a href="/search">Search</a></li>
+  </ul>
+</nav>
+
+<style lang="scss">
+  nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    .brand a {
+      color: black;
+    }
+    a {
+      color:blueviolet;
+      text-decoration: none;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display:inline-block;
+      margin: 0 .75rem;
+    }
+  }
+</style>
