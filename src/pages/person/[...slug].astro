@@ -15,6 +15,7 @@ export async function getStaticPaths() {
 }
 const person = Astro.props?.data;
 const spouse = person.spouses.length > 0 ? allPeople.getPerson(person.spouses[0]): null;
+const coparents = person.coparents;
 const children = person.children;
 const siblings = person.siblings;
 const mother = person.motherId > 0 ? allPeople.getPerson(person.motherId): null;
@@ -41,7 +42,11 @@ const father = person.fatherId > 0 ? allPeople.getPerson(person.fatherId): null;
 			<div>
 				<p class="column-head">Mother:</p>
 				<ul>
-					<li><a href={`/person/${mother.id-2}`}>{`${mother.firstName} ${mother.lastName} (${mother.family_kanji} ${mother.kanji})`}</a></li>
+					<li>
+						<a href={`/person/${mother.id-2}`}>
+							{`${mother.firstName} ${mother.lastName} (${mother.family_kanji} ${mother.kanji})`}
+						</a>
+					</li>
 				</ul>
 			</div>
 			: null
@@ -56,6 +61,25 @@ const father = person.fatherId > 0 ? allPeople.getPerson(person.fatherId): null;
 				<p class="column-head">Spouse:</p>
 				<ul>
 					<li><a href={`/person/${spouse.id-2}`}>{`${spouse.firstName} ${spouse.lastName} (${spouse.family_kanji} ${spouse.kanji})`}</a></li>
+				</ul>
+			</div>
+		: null
+	}
+	{
+		coparents.length > 0 ? 
+			<div>
+				<p class="column-head">Coparents:</p>
+				<ul>
+					{coparents.map(coparentId => {
+						const coparent = allPeople.getPerson(coparentId);
+						return (
+						<li>
+							<a href={`/person/${coparent.id-2}`}>{`${coparent.firstName} ${coparent.lastName} (${coparent.family_kanji} ${coparent.kanji})`}</a>
+						</li>
+						);
+					}
+					)}
+					
 				</ul>
 			</div>
 		: null

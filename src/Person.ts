@@ -11,5 +11,6 @@ export type Person = {
   children: number[];
   siblings: number[];
   spouses: number[];
+  coparents: number[];
 }
 
