@@ -20,6 +20,7 @@ const children = person.children;
 const siblings = person.siblings;
 const mother = person.motherId > 0 ? allPeople.getPerson(person.motherId): null;
 const father = person.fatherId > 0 ? allPeople.getPerson(person.fatherId): null;
+const comment = person.comment;
 ---
 
 <Layout>
@@ -53,6 +54,8 @@ const father = person.fatherId > 0 ? allPeople.getPerson(person.fatherId): null;
 		}
 		</div>
 	</div>
+	
+	{comment ? <p>{comment}</p> : null}
 
 	<div class="side-by-side">
 	{

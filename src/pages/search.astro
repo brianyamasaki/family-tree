@@ -1,13 +1,14 @@
 ---
 import Layout from '@layouts/Landing.astro';
 import { SITE_TITLE } from "@src/consts";
+import SearchFind from "astro-pagefind/components/Search";
 ---
 
 <Layout
-	title={`${SITE_TITLE} | Search`}
+	title={`${SITE_TITLE} - Search`}
 >
 	<h1>Search</h1>
-	<p>This will eventually become the search page</p>
+	<SearchFind id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
 	
 </Layout>
 

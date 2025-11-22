@@ -9,6 +9,7 @@
     "sex": "M",
     "motherId": 88,
     "fatherId": 85,
+    "comment": "",
     "children": [
       4,
       5,
@@ -26,13 +27,14 @@
   {
     "id": 3,
     "firstName": "Mitsuko",
-    "lastName": "Yamasaki",
+    "lastName": "Yano",
     "middleName": "",
     "kanji": "満子",
-    "family_kanji": "",
+    "family_kanji": "矢野",
     "sex": "F",
     "motherId": 24,
     "fatherId": 51,
+    "comment": "",
     "children": [
       4,
       5,
@@ -57,6 +59,7 @@
     "sex": "M",
     "motherId": 3,
     "fatherId": 2,
+    "comment": "",
     "children": [
       8,
       9,
@@ -81,6 +84,7 @@
     "sex": "M",
     "motherId": 3,
     "fatherId": 2,
+    "comment": "",
     "children": [
       11,
       12,
@@ -106,6 +110,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       11,
       12,
@@ -126,14 +131,19 @@
     "kanji": "尚子",
     "family_kanji": "山崎",
     "sex": "F",
-    "motherId": -1,
-    "fatherId": -1,
+    "motherId": 120,
+    "fatherId": 119,
+    "comment": "",
     "children": [
       8,
       9,
       10
     ],
-    "siblings": [],
+    "siblings": [
+      121,
+      122,
+      123
+    ],
     "spouses": [
       4
     ],
@@ -149,6 +159,7 @@
     "sex": "M",
     "motherId": 7,
     "fatherId": 4,
+    "comment": "",
     "children": [
       15,
       16
@@ -172,6 +183,7 @@
     "sex": "M",
     "motherId": 7,
     "fatherId": 4,
+    "comment": "",
     "children": [
       18
     ],
@@ -194,6 +206,7 @@
     "sex": "F",
     "motherId": 7,
     "fatherId": 4,
+    "comment": "",
     "children": [
       17
     ],
@@ -216,6 +229,7 @@
     "sex": "M",
     "motherId": 6,
     "fatherId": 5,
+    "comment": "",
     "children": [],
     "siblings": [
       12,
@@ -235,6 +249,7 @@
     "sex": "M",
     "motherId": 6,
     "fatherId": 5,
+    "comment": "",
     "children": [],
     "siblings": [
       11,
@@ -254,6 +269,7 @@
     "sex": "F",
     "motherId": 6,
     "fatherId": 5,
+    "comment": "",
     "children": [],
     "siblings": [
       11,
@@ -273,6 +289,7 @@
     "sex": "F",
     "motherId": 6,
     "fatherId": 5,
+    "comment": "",
     "children": [],
     "siblings": [
       11,
@@ -292,6 +309,7 @@
     "sex": "M",
     "motherId": 20,
     "fatherId": 8,
+    "comment": "",
     "children": [],
     "siblings": [
       16
@@ -309,6 +327,7 @@
     "sex": "F",
     "motherId": 20,
     "fatherId": 8,
+    "comment": "",
     "children": [],
     "siblings": [
       15
@@ -326,6 +345,7 @@
     "sex": "M",
     "motherId": 10,
     "fatherId": 19,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -341,6 +361,7 @@
     "sex": "M",
     "motherId": 21,
     "fatherId": 9,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -356,6 +377,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       17
     ],
@@ -375,6 +397,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       15,
       16
@@ -395,6 +418,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       18
     ],
@@ -414,6 +438,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       24,
       25,
@@ -421,10 +446,10 @@
       28
     ],
     "siblings": [],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       23
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 23,
@@ -436,6 +461,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       24,
       25,
@@ -443,10 +469,10 @@
       28
     ],
     "siblings": [],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       22
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 24,
@@ -458,6 +484,7 @@
     "sex": "F",
     "motherId": 23,
     "fatherId": 22,
+    "comment": "",
     "children": [
       3,
       67,
@@ -468,10 +495,10 @@
       26,
       28
     ],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       51
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 25,
@@ -483,6 +510,7 @@
     "sex": "F",
     "motherId": 23,
     "fatherId": 22,
+    "comment": "",
     "children": [],
     "siblings": [
       24,
@@ -502,6 +530,7 @@
     "sex": "F",
     "motherId": 23,
     "fatherId": 22,
+    "comment": "",
     "children": [
       31,
       32
@@ -511,10 +540,10 @@
       25,
       28
     ],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       27
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 27,
@@ -526,15 +555,16 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       31,
       32
     ],
     "siblings": [],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       26
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 28,
@@ -546,13 +576,16 @@
     "sex": "F",
     "motherId": 23,
     "fatherId": 22,
+    "comment": "",
     "children": [],
     "siblings": [
       24,
       25,
       26
     ],
-    "spouses": [],
+    "spouses": [
+      29
+    ],
     "coparents": []
   },
   {
@@ -565,9 +598,12 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      28
+    ],
     "coparents": []
   },
   {
@@ -580,6 +616,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       36,
       37
@@ -600,6 +637,7 @@
     "sex": "F",
     "motherId": 27,
     "fatherId": 26,
+    "comment": "",
     "children": [
       36,
       37
@@ -622,16 +660,17 @@
     "sex": "F",
     "motherId": 27,
     "fatherId": 26,
+    "comment": "",
     "children": [
       34
     ],
     "siblings": [
       31
     ],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       33
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 33,
@@ -643,14 +682,15 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       34
     ],
     "siblings": [],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       32
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 34,
@@ -662,6 +702,7 @@
     "sex": "F",
     "motherId": 32,
     "fatherId": 33,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -677,9 +718,12 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      36
+    ],
     "coparents": []
   },
   {
@@ -692,11 +736,14 @@
     "sex": "F",
     "motherId": 31,
     "fatherId": 30,
+    "comment": "",
     "children": [],
     "siblings": [
       37
     ],
-    "spouses": [],
+    "spouses": [
+      35
+    ],
     "coparents": []
   },
   {
@@ -709,6 +756,7 @@
     "sex": "M",
     "motherId": 31,
     "fatherId": 30,
+    "comment": "",
     "children": [
       39
     ],
@@ -730,6 +778,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       39
     ],
@@ -749,6 +798,7 @@
     "sex": "F",
     "motherId": 38,
     "fatherId": 37,
+    "comment": "",
     "children": [
       40
     ],
@@ -766,6 +816,7 @@
     "sex": "F",
     "motherId": 39,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [
@@ -783,6 +834,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [
@@ -800,6 +852,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       45,
       47,
@@ -823,6 +876,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       45,
       47,
@@ -846,12 +900,15 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       52,
       53
     ],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      44
+    ],
     "coparents": [
       45
     ]
@@ -866,6 +923,7 @@
     "sex": "M",
     "motherId": 42,
     "fatherId": 43,
+    "comment": "",
     "children": [
       52,
       53
@@ -891,6 +949,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       55,
       56,
@@ -898,10 +957,10 @@
       58
     ],
     "siblings": [],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       47
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 47,
@@ -913,6 +972,7 @@
     "sex": "M",
     "motherId": 42,
     "fatherId": 43,
+    "comment": "",
     "children": [
       55,
       56,
@@ -925,10 +985,10 @@
       50,
       51
     ],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       46
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 48,
@@ -940,6 +1000,7 @@
     "sex": "F",
     "motherId": 42,
     "fatherId": 43,
+    "comment": "",
     "children": [
       59,
       60,
@@ -967,14 +1028,15 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       65
     ],
     "siblings": [],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       50
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 50,
@@ -986,6 +1048,7 @@
     "sex": "F",
     "motherId": 42,
     "fatherId": 43,
+    "comment": "",
     "children": [
       65
     ],
@@ -995,10 +1058,10 @@
       48,
       51
     ],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       49
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 51,
@@ -1010,6 +1073,7 @@
     "sex": "F",
     "motherId": 42,
     "fatherId": 43,
+    "comment": "",
     "children": [
       3,
       67,
@@ -1021,10 +1085,10 @@
       48,
       50
     ],
-    "spouses": [],
-    "coparents": [
+    "spouses": [
       24
-    ]
+    ],
+    "coparents": []
   },
   {
     "id": 52,
@@ -1036,6 +1100,7 @@
     "sex": "F",
     "motherId": 44,
     "fatherId": 45,
+    "comment": "",
     "children": [],
     "siblings": [
       53
@@ -1053,6 +1118,7 @@
     "sex": "F",
     "motherId": 44,
     "fatherId": 45,
+    "comment": "",
     "children": [],
     "siblings": [
       52
@@ -1070,6 +1136,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [
@@ -1087,6 +1154,7 @@
     "sex": "M",
     "motherId": 46,
     "fatherId": 47,
+    "comment": "",
     "children": [],
     "siblings": [
       56,
@@ -1108,6 +1176,7 @@
     "sex": "M",
     "motherId": 46,
     "fatherId": 47,
+    "comment": "",
     "children": [],
     "siblings": [
       55,
@@ -1127,6 +1196,7 @@
     "sex": "F",
     "motherId": 46,
     "fatherId": 47,
+    "comment": "",
     "children": [],
     "siblings": [
       55,
@@ -1146,6 +1216,7 @@
     "sex": "F",
     "motherId": 46,
     "fatherId": 47,
+    "comment": "",
     "children": [],
     "siblings": [
       55,
@@ -1165,6 +1236,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 48,
+    "comment": "",
     "children": [],
     "siblings": [
       60,
@@ -1186,6 +1258,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 48,
+    "comment": "Perhaps married into Kii family",
     "children": [],
     "siblings": [
       59,
@@ -1207,6 +1280,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": 48,
+    "comment": "",
     "children": [],
     "siblings": [
       59,
@@ -1228,6 +1302,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": 48,
+    "comment": "",
     "children": [],
     "siblings": [
       59,
@@ -1249,6 +1324,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 48,
+    "comment": "",
     "children": [],
     "siblings": [
       59,
@@ -1270,6 +1346,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": 48,
+    "comment": "",
     "children": [],
     "siblings": [
       59,
@@ -1291,6 +1368,7 @@
     "sex": "F",
     "motherId": 50,
     "fatherId": 49,
+    "comment": "Uncertain Kanji",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -1306,6 +1384,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       70,
       71
@@ -1326,6 +1405,7 @@
     "sex": "F",
     "motherId": 24,
     "fatherId": 51,
+    "comment": "",
     "children": [
       70,
       71
@@ -1349,6 +1429,7 @@
     "sex": "F",
     "motherId": 24,
     "fatherId": 51,
+    "comment": "",
     "children": [],
     "siblings": [
       3,
@@ -1367,18 +1448,16 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       74,
       77,
-      78,
-      79,
-      80
+      78
     ],
     "siblings": [],
     "spouses": [],
     "coparents": [
-      70,
-      77
+      70
     ]
   },
   {
@@ -1391,6 +1470,7 @@
     "sex": "M",
     "motherId": 67,
     "fatherId": 66,
+    "comment": "",
     "children": [
       74,
       77,
@@ -1414,6 +1494,7 @@
     "sex": "M",
     "motherId": 67,
     "fatherId": 66,
+    "comment": "Born 2/29/1932",
     "children": [
       72
     ],
@@ -1433,6 +1514,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": 71,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -1448,6 +1530,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       75
     ],
@@ -1467,14 +1550,13 @@
     "sex": "F",
     "motherId": 69,
     "fatherId": 70,
+    "comment": "",
     "children": [
       75
     ],
     "siblings": [
       77,
-      78,
-      79,
-      80
+      78
     ],
     "spouses": [],
     "coparents": [
@@ -1491,6 +1573,7 @@
     "sex": "F",
     "motherId": 74,
     "fatherId": 73,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -1506,9 +1589,15 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
-    "children": [],
+    "comment": "",
+    "children": [
+      79,
+      80
+    ],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      77
+    ],
     "coparents": []
   },
   {
@@ -1521,20 +1610,19 @@
     "sex": "M",
     "motherId": 69,
     "fatherId": 70,
+    "comment": "",
     "children": [
       79,
       80
     ],
     "siblings": [
       74,
-      78,
-      79,
-      80
+      78
     ],
-    "spouses": [],
-    "coparents": [
-      69
-    ]
+    "spouses": [
+      76
+    ],
+    "coparents": []
   },
   {
     "id": 78,
@@ -1546,12 +1634,11 @@
     "sex": "M",
     "motherId": 69,
     "fatherId": 70,
+    "comment": "",
     "children": [],
     "siblings": [
       74,
-      77,
-      79,
-      80
+      77
     ],
     "spouses": [],
     "coparents": []
@@ -1564,14 +1651,12 @@
     "kanji": "文子（あやこ）",
     "family_kanji": "矢野",
     "sex": "F",
-    "motherId": 69,
+    "motherId": 76,
     "fatherId": 77,
+    "comment": "",
     "children": [],
     "siblings": [
-      80,
-      74,
-      77,
-      78
+      80
     ],
     "spouses": [],
     "coparents": []
@@ -1584,14 +1669,12 @@
     "kanji": "晶子",
     "family_kanji": "矢野",
     "sex": "F",
-    "motherId": 69,
+    "motherId": 76,
     "fatherId": 77,
+    "comment": "",
     "children": [],
     "siblings": [
-      79,
-      74,
-      77,
-      78
+      79
     ],
     "spouses": [],
     "coparents": []
@@ -1606,9 +1689,12 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "Multiple pronounciations for those kanji",
     "children": [],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      82
+    ],
     "coparents": []
   },
   {
@@ -1621,12 +1707,15 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       85,
       118
     ],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      81
+    ],
     "coparents": [
       83
     ]
@@ -1641,6 +1730,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       85,
       118
@@ -1661,6 +1751,7 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -1676,6 +1767,7 @@
     "sex": "M",
     "motherId": 82,
     "fatherId": 83,
+    "comment": "",
     "children": [
       2,
       100,
@@ -1699,6 +1791,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       88,
       89,
@@ -1722,6 +1815,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       88,
       89,
@@ -1745,6 +1839,7 @@
     "sex": "F",
     "motherId": 87,
     "fatherId": 86,
+    "comment": "",
     "children": [
       2,
       100,
@@ -1771,6 +1866,7 @@
     "sex": "F",
     "motherId": 87,
     "fatherId": 86,
+    "comment": "",
     "children": [],
     "siblings": [
       88,
@@ -1791,6 +1887,7 @@
     "sex": "F",
     "motherId": 87,
     "fatherId": 86,
+    "comment": "",
     "children": [],
     "siblings": [
       88,
@@ -1811,6 +1908,7 @@
     "sex": "M",
     "motherId": 87,
     "fatherId": 86,
+    "comment": "",
     "children": [
       93,
       94,
@@ -1837,6 +1935,7 @@
     "sex": "F",
     "motherId": 87,
     "fatherId": 86,
+    "comment": "Died at 4 years of age",
     "children": [],
     "siblings": [
       88,
@@ -1857,6 +1956,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 91,
+    "comment": "",
     "children": [],
     "siblings": [
       94,
@@ -1877,6 +1977,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 91,
+    "comment": "Uncertain Kanji and romanization",
     "children": [],
     "siblings": [
       93,
@@ -1897,6 +1998,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 91,
+    "comment": "",
     "children": [],
     "siblings": [
       93,
@@ -1917,6 +2019,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 91,
+    "comment": "",
     "children": [],
     "siblings": [
       93,
@@ -1937,6 +2040,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 91,
+    "comment": "",
     "children": [],
     "siblings": [
       93,
@@ -1957,6 +2061,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -1972,6 +2077,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       102,
       103,
@@ -1995,6 +2101,7 @@
     "sex": "F",
     "motherId": 88,
     "fatherId": 85,
+    "comment": "",
     "children": [
       102,
       103,
@@ -2021,6 +2128,7 @@
     "sex": "F",
     "motherId": 88,
     "fatherId": 85,
+    "comment": "",
     "children": [],
     "siblings": [
       2,
@@ -2039,6 +2147,7 @@
     "sex": "F",
     "motherId": 100,
     "fatherId": 99,
+    "comment": "",
     "children": [],
     "siblings": [
       103,
@@ -2059,6 +2168,7 @@
     "sex": "F",
     "motherId": 100,
     "fatherId": 99,
+    "comment": "",
     "children": [],
     "siblings": [
       102,
@@ -2079,6 +2189,7 @@
     "sex": "F",
     "motherId": 100,
     "fatherId": 99,
+    "comment": "",
     "children": [
       109,
       110
@@ -2102,6 +2213,7 @@
     "sex": "F",
     "motherId": 100,
     "fatherId": 99,
+    "comment": "",
     "children": [],
     "siblings": [
       102,
@@ -2122,6 +2234,7 @@
     "sex": "F",
     "motherId": 100,
     "fatherId": 99,
+    "comment": "",
     "children": [],
     "siblings": [
       102,
@@ -2142,6 +2255,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       111,
       112
@@ -2160,6 +2274,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
+    "comment": "",
     "children": [
       113
     ],
@@ -2177,6 +2292,7 @@
     "sex": "F",
     "motherId": 104,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [
       110
@@ -2194,6 +2310,7 @@
     "sex": "F",
     "motherId": 104,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [
       109
@@ -2211,6 +2328,7 @@
     "sex": "F",
     "motherId": 107,
     "fatherId": -1,
+    "comment": "",
     "children": [
       114,
       115
@@ -2231,6 +2349,7 @@
     "sex": "F",
     "motherId": 107,
     "fatherId": -1,
+    "comment": "",
     "children": [
       116
     ],
@@ -2250,6 +2369,7 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": 108,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -2265,6 +2385,7 @@
     "sex": "F",
     "motherId": 111,
     "fatherId": -1,
+    "comment": "Several ways to pronounce",
     "children": [],
     "siblings": [
       115
@@ -2282,6 +2403,7 @@
     "sex": "F",
     "motherId": 111,
     "fatherId": -1,
+    "comment": "Several ways to pronounce",
     "children": [],
     "siblings": [
       114
@@ -2299,6 +2421,7 @@
     "sex": "F",
     "motherId": 112,
     "fatherId": -1,
+    "comment": "",
     "children": [],
     "siblings": [],
     "spouses": [],
@@ -2314,6 +2437,7 @@
     "sex": "F",
     "motherId": 3,
     "fatherId": 2,
+    "comment": "Died 11/20/1926 at four years of age",
     "children": [],
     "siblings": [
       4,
@@ -2332,9 +2456,116 @@
     "sex": "F",
     "motherId": 82,
     "fatherId": 83,
+    "comment": "",
     "children": [],
     "siblings": [
       85
+    ],
+    "spouses": [],
+    "coparents": []
+  },
+  {
+    "id": 119,
+    "firstName": "Kanzo",
+    "lastName": "Nihira",
+    "middleName": "",
+    "kanji": "かんぞ",
+    "family_kanji": "仁平",
+    "sex": "M",
+    "motherId": -1,
+    "fatherId": -1,
+    "comment": "",
+    "children": [
+      7,
+      121,
+      122,
+      123
+    ],
+    "siblings": [],
+    "spouses": [
+      120
+    ],
+    "coparents": []
+  },
+  {
+    "id": 120,
+    "firstName": "Tomi",
+    "lastName": "Kamoshida",
+    "middleName": "",
+    "kanji": "とみ",
+    "family_kanji": "",
+    "sex": "F",
+    "motherId": -1,
+    "fatherId": -1,
+    "comment": "",
+    "children": [
+      7,
+      121,
+      122,
+      123
+    ],
+    "siblings": [],
+    "spouses": [
+      119
+    ],
+    "coparents": []
+  },
+  {
+    "id": 121,
+    "firstName": "Mitzi",
+    "lastName": "Nihira",
+    "middleName": "",
+    "kanji": "",
+    "family_kanji": "仁平",
+    "sex": "F",
+    "motherId": 120,
+    "fatherId": 119,
+    "comment": "",
+    "children": [],
+    "siblings": [
+      7,
+      122,
+      123
+    ],
+    "spouses": [],
+    "coparents": []
+  },
+  {
+    "id": 122,
+    "firstName": "Phoebe",
+    "lastName": "Nihira",
+    "middleName": "",
+    "kanji": "",
+    "family_kanji": "仁平",
+    "sex": "F",
+    "motherId": 120,
+    "fatherId": 119,
+    "comment": "",
+    "children": [],
+    "siblings": [
+      7,
+      121,
+      123
+    ],
+    "spouses": [],
+    "coparents": []
+  },
+  {
+    "id": 123,
+    "firstName": "Kazuo",
+    "lastName": "Nihira",
+    "middleName": "",
+    "kanji": "",
+    "family_kanji": "仁平",
+    "sex": "M",
+    "motherId": 120,
+    "fatherId": 119,
+    "comment": "",
+    "children": [],
+    "siblings": [
+      7,
+      121,
+      122
     ],
     "spouses": [],
     "coparents": []

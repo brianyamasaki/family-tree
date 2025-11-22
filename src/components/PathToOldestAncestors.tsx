@@ -20,6 +20,9 @@ const PathToOldest = ({id}:Props) => {
       </div>
     );
   }
+  if (!tree.fatherNode && !tree.motherNode) {
+    return <h3>No Ancestry Found</h3>
+  }
   return (
     <>
       <h3>Ancestor Paths</h3>

@@ -8,6 +8,7 @@ export type Person = {
   sex: string;
   motherId: number;
   fatherId: number;
+  comment: string;
   children: number[];
   siblings: number[];
   spouses: number[];
