@@ -1621,10 +1621,15 @@
     "sex": "F",
     "motherId": -1,
     "fatherId": -1,
-    "children": [],
+    "children": [
+      85,
+      118
+    ],
     "siblings": [],
     "spouses": [],
-    "coparents": []
+    "coparents": [
+      83
+    ]
   },
   {
     "id": 83,
@@ -1636,10 +1641,15 @@
     "sex": "M",
     "motherId": -1,
     "fatherId": -1,
-    "children": [],
+    "children": [
+      85,
+      118
+    ],
     "siblings": [],
     "spouses": [],
-    "coparents": []
+    "coparents": [
+      82
+    ]
   },
   {
     "id": 84,
@@ -1664,14 +1674,16 @@
     "kanji": "寅吉",
     "family_kanji": "山崎",
     "sex": "M",
-    "motherId": -1,
-    "fatherId": -1,
+    "motherId": 82,
+    "fatherId": 83,
     "children": [
       2,
       100,
       101
     ],
-    "siblings": [],
+    "siblings": [
+      118
+    ],
     "spouses": [],
     "coparents": [
       88
@@ -2306,6 +2318,23 @@
     "siblings": [
       4,
       5
+    ],
+    "spouses": [],
+    "coparents": []
+  },
+  {
+    "id": 118,
+    "firstName": "Some",
+    "lastName": "Shimamoto",
+    "middleName": "",
+    "kanji": "ソメ ",
+    "family_kanji": "島本",
+    "sex": "F",
+    "motherId": 82,
+    "fatherId": 83,
+    "children": [],
+    "siblings": [
+      85
     ],
     "spouses": [],
     "coparents": []

@@ -1,0 +1,11 @@
+.father {
+  border: 1px solid blue;
+}
+.mother {
+  border: 1px solid red;
+}
+.side-by-side {
+  display:flex;
+  gap: 1rem;
+  justify-content: center;
+}

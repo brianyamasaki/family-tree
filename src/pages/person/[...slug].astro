@@ -2,7 +2,7 @@
 import { allPeople } from '@src/People';
 import type { Person } from '@src/Person';
 import Layout from '@layouts/Person.astro';
-import { Children } from 'react';
+import PathToOldest from '@src/components/PathToOldestAncestors';
 
 export async function getStaticPaths() {
 	return allPeople.getList().map((relative, i) => {
@@ -113,8 +113,8 @@ const father = person.fatherId > 0 ? allPeople.getPerson(person.fatherId): null;
 			</div>
 		: null
 	}
-
 	</div>
+	<PathToOldest id={person.id} client:idle />
 </Layout>
 
 <style lang="scss">
