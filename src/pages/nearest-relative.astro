@@ -1,10 +1,13 @@
 ---
 import Layout from '@layouts/Landing.astro';
+import { SITE_TITLE } from "@src/consts";
+
 import NearestCommonRelative from '@src/components/NearestRelative';
 ---
 
-<Layout>
-  <h1>Find the Closest Common Relative</h1>
+<Layout 
+title={`${SITE_TITLE} - Find the Nearest Common Ancestor`}>
+  <h1>Find the Nearest Common Ancestor</h1>
   <NearestCommonRelative client:idle />
 </Layout>
 
