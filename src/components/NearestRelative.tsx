@@ -2,6 +2,7 @@ import { useState } from "react";
 import NameList from "./NameList";
 import './NearestRelative.scss';
 import { allPeople } from "@src/People";
+import { Person } from "@src/Person";
 import { ancestorTree, compareTrees } from "@src/treeUtils";
 
 const NearestCommonRelative = () => {
@@ -21,7 +22,7 @@ const NearestCommonRelative = () => {
   }
 
   const renderChoiceName = (id: number) => {
-    if (id < 1) return null;
+    if (!Person.isValidId(id)) return null;
     const person = allPeople.getPerson(id);
     return (
       <p>{person.firstName} {person.lastName}</p>
@@ -29,7 +30,7 @@ const NearestCommonRelative = () => {
   }
 
   const renderNearestCommonAncestor = () => {
-    if (choice1 < 1 || choice2 < 1) return null;
+    if (!Person.isValidId(choice1) || !Person.isValidId(choice2)) return null;
     const tree1 = ancestorTree(allPeople, choice1);
     const tree2 = ancestorTree(allPeople, choice2);
     const ancestor = compareTrees(tree1, tree2);
