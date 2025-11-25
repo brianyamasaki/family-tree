@@ -25,7 +25,11 @@ const NearestCommonRelative = () => {
     if (!Person.isValidId(id)) return null;
     const person = allPeople.getPerson(id);
     return (
-      <p>{person.firstName} {person.lastName}</p>
+      <div>
+        <a href={`/person/${person.id - 2}`}>
+          {person.firstName} {person.lastName}
+        </a>
+      </div>
     )
   }
 
@@ -36,11 +40,15 @@ const NearestCommonRelative = () => {
     const ancestor = compareTrees(tree1, tree2);
     if (!ancestor) {
       return (
-        <p>Common Ancestor not found in current data</p>
+        <div className="common-ancestor">Common Ancestor not found in current data</div>
       )
     } else {
       return (
-        <p>{ancestor.person.firstName} {ancestor.person.lastName}</p>
+        <div className="common-ancestor">
+          <a href={`/person/${ancestor.person.id - 2}`}>
+            {ancestor.person.firstName} {ancestor.person.lastName}
+          </a>
+        </div>
       )
     }
   }
@@ -53,11 +61,11 @@ const NearestCommonRelative = () => {
       </div>
       <div>
       <div className="side-by-side">
-        <div>
+        <div className="choice">
           <h4>Person 1:</h4>
           {renderChoiceName(choice1)}
         </div>
-        <div>
+        <div className="choice">
           <h4>Person 2:</h4>
           {renderChoiceName(choice2)}
         </div>
