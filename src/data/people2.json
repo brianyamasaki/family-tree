@@ -1,0 +1,2630 @@
+[
+  {
+    "id": "2",
+    "data": {
+      "first name": "Kumazo",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "熊造",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "85",
+        "88"
+      ],
+      "spouses": [
+        "3"
+      ],
+      "children": [
+        "4",
+        "5",
+        "117"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "data": {
+      "first name": "Mitsuko",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "満子",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "51",
+        "24"
+      ],
+      "spouses": [
+        "2"
+      ],
+      "children": [
+        "4",
+        "5",
+        "117"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "data": {
+      "first name": "Motoshi",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "堅志",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "2",
+        "3"
+      ],
+      "spouses": [
+        "7"
+      ],
+      "children": [
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "data": {
+      "first name": "Noboru",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "昇",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "2",
+        "3"
+      ],
+      "spouses": [
+        "6"
+      ],
+      "children": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "data": {
+      "first name": "Yaeko",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "ﾔｴｺ",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "5"
+      ],
+      "children": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "data": {
+      "first name": "Shoko",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "尚子",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "119",
+        "120"
+      ],
+      "spouses": [
+        "4"
+      ],
+      "children": [
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "data": {
+      "first name": "Brian",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "日登志",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "4",
+        "7"
+      ],
+      "spouses": [],
+      "children": [
+        "15",
+        "16"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "data": {
+      "first name": "Stacy",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "明志",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "4",
+        "7"
+      ],
+      "spouses": [
+        "21"
+      ],
+      "children": [
+        "18"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "data": {
+      "first name": "Mae",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "五月",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "4",
+        "7"
+      ],
+      "spouses": [
+        "19"
+      ],
+      "children": [
+        "17"
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "data": {
+      "first name": "Neil",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "肇",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "5",
+        "6"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "12",
+    "data": {
+      "first name": "Norman",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "信也",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "5",
+        "6"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "13",
+    "data": {
+      "first name": "Nadine",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "光枝",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "5",
+        "6"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "14",
+    "data": {
+      "first name": "Nina",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "里美",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "5",
+        "6"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "15",
+    "data": {
+      "first name": "Stephen",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "高志",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "8",
+        "20"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "16",
+    "data": {
+      "first name": "Colin",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "啓志",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "8",
+        "20"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "17",
+    "data": {
+      "first name": "Tyler",
+      "last name": "Habu",
+      "gender": "M",
+      "kanji": "光貴男",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "19",
+        "10"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "18",
+    "data": {
+      "first name": "Christopher",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "賢一",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "9",
+        "21"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "19",
+    "data": {
+      "first name": "Gordon",
+      "last name": "Habu",
+      "gender": "M",
+      "kanji": "",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "10"
+      ],
+      "children": [
+        "17"
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "data": {
+      "first name": "Debora",
+      "last name": "Chen",
+      "gender": "F",
+      "kanji": "",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "15",
+        "16"
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "data": {
+      "first name": "Mie",
+      "last name": "Hayashi",
+      "gender": "F",
+      "kanji": "",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "9"
+      ],
+      "children": [
+        "18"
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "data": {
+      "first name": "Jukichi",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "重吉",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "23"
+      ],
+      "children": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "data": {
+      "first name": "Mon",
+      "last name": "",
+      "gender": "M",
+      "kanji": "モン",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "22"
+      ],
+      "children": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ]
+    }
+  },
+  {
+    "id": "24",
+    "data": {
+      "first name": "Ishino",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "イシノ",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "22",
+        "23"
+      ],
+      "spouses": [
+        "51"
+      ],
+      "children": [
+        "3",
+        "67",
+        "68"
+      ]
+    }
+  },
+  {
+    "id": "25",
+    "data": {
+      "first name": "Iwaemon",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "岩右衛門",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "22",
+        "23"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "26",
+    "data": {
+      "first name": "Ryuemon",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "龍右衛門",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "22",
+        "23"
+      ],
+      "spouses": [
+        "27"
+      ],
+      "children": [
+        "31",
+        "32"
+      ]
+    }
+  },
+  {
+    "id": "27",
+    "data": {
+      "first name": "Michiko",
+      "last name": "Hyoudou",
+      "gender": "F",
+      "kanji": "條子",
+      "family_kanji": "兵頭",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "26"
+      ],
+      "children": [
+        "31",
+        "32"
+      ]
+    }
+  },
+  {
+    "id": "28",
+    "data": {
+      "first name": "Yutaka",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "寛（ゆたか）",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "22",
+        "23"
+      ],
+      "spouses": [
+        "29"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "29",
+    "data": {
+      "first name": "Katsushiro",
+      "last name": "Matsumoto",
+      "gender": "F",
+      "kanji": "勝城",
+      "family_kanji": "松本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "28"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "30",
+    "data": {
+      "first name": "Naoharu",
+      "last name": "Kayama",
+      "gender": "M",
+      "kanji": "直治",
+      "family_kanji": "香山",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "31"
+      ],
+      "children": [
+        "36",
+        "37"
+      ]
+    }
+  },
+  {
+    "id": "31",
+    "data": {
+      "first name": "Chieko",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "智恵子",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "26",
+        "27"
+      ],
+      "spouses": [
+        "30"
+      ],
+      "children": [
+        "36",
+        "37"
+      ]
+    }
+  },
+  {
+    "id": "32",
+    "data": {
+      "first name": "Kazuko",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "和子",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "26",
+        "27"
+      ],
+      "spouses": [
+        "33"
+      ],
+      "children": [
+        "34"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "data": {
+      "first name": "Yusaku",
+      "last name": "Iida",
+      "gender": "M",
+      "kanji": "有作",
+      "family_kanji": "飯田",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "32"
+      ],
+      "children": [
+        "34"
+      ]
+    }
+  },
+  {
+    "id": "34",
+    "data": {
+      "first name": "Yasuko",
+      "last name": "Iida",
+      "gender": "F",
+      "kanji": "康子",
+      "family_kanji": "飯田",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "33",
+        "32"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "35",
+    "data": {
+      "first name": "Yukinori",
+      "last name": "Taneda",
+      "gender": "M",
+      "kanji": "幸記",
+      "family_kanji": "種田",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "36"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "36",
+    "data": {
+      "first name": "Atsuko",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "敦子",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "30",
+        "31"
+      ],
+      "spouses": [
+        "35"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "37",
+    "data": {
+      "first name": "Masaharu",
+      "last name": "Kinoshita",
+      "gender": "M",
+      "kanji": "正治",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "30",
+        "31"
+      ],
+      "spouses": [
+        "38"
+      ],
+      "children": [
+        "39"
+      ]
+    }
+  },
+  {
+    "id": "38",
+    "data": {
+      "first name": "Ayako",
+      "last name": "Imai",
+      "gender": "F",
+      "kanji": "絢子",
+      "family_kanji": "今井",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "37"
+      ],
+      "children": [
+        "39"
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "data": {
+      "first name": "Natsuko",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "奈都子",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "37",
+        "38"
+      ],
+      "spouses": [],
+      "children": [
+        "40"
+      ]
+    }
+  },
+  {
+    "id": "40",
+    "data": {
+      "first name": "Satori",
+      "last name": "Kinoshita",
+      "gender": "F",
+      "kanji": "知利",
+      "family_kanji": "木下",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "39"
+      ],
+      "spouses": [
+        "41"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "41",
+    "data": {
+      "first name": "Romero",
+      "last name": "Garcia",
+      "gender": "M",
+      "kanji": "ロメロ",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "40"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "42",
+    "data": {
+      "first name": "Ume",
+      "last name": "",
+      "gender": "F",
+      "kanji": "うめ",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "43"
+      ],
+      "children": [
+        "45",
+        "47",
+        "48",
+        "50",
+        "51"
+      ]
+    }
+  },
+  {
+    "id": "43",
+    "data": {
+      "first name": "Kunizo",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "国蔵",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "42"
+      ],
+      "children": [
+        "45",
+        "47",
+        "48",
+        "50",
+        "51"
+      ]
+    }
+  },
+  {
+    "id": "44",
+    "data": {
+      "first name": "Miyo",
+      "last name": "",
+      "gender": "F",
+      "kanji": "みよ",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "44"
+      ],
+      "children": [
+        "52",
+        "53"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "data": {
+      "first name": "Yaetaro",
+      "last name": "Mohri",
+      "gender": "M",
+      "kanji": "八重太郎",
+      "family_kanji": "毛利姓",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "43",
+        "42"
+      ],
+      "spouses": [
+        "44"
+      ],
+      "children": [
+        "52",
+        "53"
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "data": {
+      "first name": "",
+      "last name": "Nishimoto",
+      "gender": "F",
+      "kanji": "",
+      "family_kanji": "西本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "47"
+      ],
+      "children": [
+        "55",
+        "56",
+        "57",
+        "58"
+      ]
+    }
+  },
+  {
+    "id": "47",
+    "data": {
+      "first name": "Sen",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "せん",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "43",
+        "42"
+      ],
+      "spouses": [
+        "46"
+      ],
+      "children": [
+        "55",
+        "56",
+        "57",
+        "58"
+      ]
+    }
+  },
+  {
+    "id": "48",
+    "data": {
+      "first name": "Shutaro",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "就太郎",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "43",
+        "42"
+      ],
+      "spouses": [],
+      "children": [
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64"
+      ]
+    }
+  },
+  {
+    "id": "49",
+    "data": {
+      "first name": "Yashichi",
+      "last name": "Yamaguchi",
+      "gender": "F",
+      "kanji": "弥七",
+      "family_kanji": "山口",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "50"
+      ],
+      "children": [
+        "65"
+      ]
+    }
+  },
+  {
+    "id": "50",
+    "data": {
+      "first name": "Kameno",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "かめの",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "43",
+        "42"
+      ],
+      "spouses": [
+        "49"
+      ],
+      "children": [
+        "65"
+      ]
+    }
+  },
+  {
+    "id": "51",
+    "data": {
+      "first name": "Tanizo",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "谷蔵",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "43",
+        "42"
+      ],
+      "spouses": [
+        "24"
+      ],
+      "children": [
+        "3",
+        "67",
+        "68"
+      ]
+    }
+  },
+  {
+    "id": "52",
+    "data": {
+      "first name": "Eunice",
+      "last name": "Mohri",
+      "gender": "F",
+      "kanji": "ユニース",
+      "family_kanji": "毛利姓",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "45",
+        "44"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "53",
+    "data": {
+      "first name": "Florence",
+      "last name": "Mohri",
+      "gender": "F",
+      "kanji": "フローレンス",
+      "family_kanji": "毛利姓",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "45",
+        "44"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "54",
+    "data": {
+      "first name": "Chiyosaburo",
+      "last name": "Tanaka",
+      "gender": "F",
+      "kanji": "千代三郎",
+      "family_kanji": "田中",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "55"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "55",
+    "data": {
+      "first name": "Masu",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "ます",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "47",
+        "46"
+      ],
+      "spouses": [
+        "54"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "56",
+    "data": {
+      "first name": "Masaharu",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "正治",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "47",
+        "46"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "57",
+    "data": {
+      "first name": "Michikatsu",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "道勝",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "47",
+        "46"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "58",
+    "data": {
+      "first name": "Youhei",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "要平",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "47",
+        "46"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "59",
+    "data": {
+      "first name": "Natsue",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "夏江",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "48",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "60",
+    "data": {
+      "first name": "Yukie",
+      "last name": "Kii",
+      "gender": "F",
+      "kanji": "雪江",
+      "family_kanji": "紀伊",
+      "comment": "Perhaps married into Kii family"
+    },
+    "rels": {
+      "parents": [
+        "48",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "61",
+    "data": {
+      "first name": "Yoshitaka",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "良高",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "48",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "62",
+    "data": {
+      "first name": "Shigeru",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "茂",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "48",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "63",
+    "data": {
+      "first name": "Matsue",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "松江",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "48",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "64",
+    "data": {
+      "first name": "Sadao",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "定男",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "48",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "65",
+    "data": {
+      "first name": "Michikatu",
+      "last name": "Yamaguchi",
+      "gender": "F",
+      "kanji": "道勝",
+      "family_kanji": "山口",
+      "comment": "Uncertain Kanji"
+    },
+    "rels": {
+      "parents": [
+        "49",
+        "50"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "66",
+    "data": {
+      "first name": "Sada",
+      "last name": "Matsumoto",
+      "gender": "M",
+      "kanji": "定",
+      "family_kanji": "松本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "70",
+        "71"
+      ]
+    }
+  },
+  {
+    "id": "67",
+    "data": {
+      "first name": "Nobuko",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "信子",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "51",
+        "24"
+      ],
+      "spouses": [],
+      "children": [
+        "70",
+        "71"
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "data": {
+      "first name": "Yasuko",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "保子",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "51",
+        "24"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "69",
+    "data": {
+      "first name": "Mimiko",
+      "last name": "",
+      "gender": "F",
+      "kanji": "美実子",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "74",
+        "77",
+        "78"
+      ]
+    }
+  },
+  {
+    "id": "70",
+    "data": {
+      "first name": "Motoyasu",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "元康",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "66",
+        "67"
+      ],
+      "spouses": [],
+      "children": [
+        "74",
+        "77",
+        "78"
+      ]
+    }
+  },
+  {
+    "id": "71",
+    "data": {
+      "first name": "Toshiyaki",
+      "last name": "Matsumoto",
+      "gender": "M",
+      "kanji": "利昭",
+      "family_kanji": "松本",
+      "comment": "Born 2/29/1932"
+    },
+    "rels": {
+      "parents": [
+        "66",
+        "67"
+      ],
+      "spouses": [],
+      "children": [
+        "72"
+      ]
+    }
+  },
+  {
+    "id": "72",
+    "data": {
+      "first name": "Will",
+      "last name": "Matsumoto",
+      "gender": "M",
+      "kanji": "",
+      "family_kanji": "松本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "71",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "73",
+    "data": {
+      "first name": "Kunio",
+      "last name": "Ishida",
+      "gender": "M",
+      "kanji": "邦男",
+      "family_kanji": "石田",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "75"
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "data": {
+      "first name": "Sadae",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "定恵",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "70",
+        "69"
+      ],
+      "spouses": [],
+      "children": [
+        "75"
+      ]
+    }
+  },
+  {
+    "id": "75",
+    "data": {
+      "first name": "Fumiko",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "史子",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "73",
+        "74"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "76",
+    "data": {
+      "first name": "Fumie",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "二三恵",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "77"
+      ],
+      "children": [
+        "79",
+        "80"
+      ]
+    }
+  },
+  {
+    "id": "77",
+    "data": {
+      "first name": "Shin-ichi",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "信一",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "70",
+        "69"
+      ],
+      "spouses": [
+        "76"
+      ],
+      "children": [
+        "79",
+        "80"
+      ]
+    }
+  },
+  {
+    "id": "78",
+    "data": {
+      "first name": "Shoji",
+      "last name": "Yano",
+      "gender": "M",
+      "kanji": "昭二",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "70",
+        "69"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "79",
+    "data": {
+      "first name": "Ayako",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "文子（あやこ）",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "77",
+        "76"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "80",
+    "data": {
+      "first name": "Akiko",
+      "last name": "Yano",
+      "gender": "F",
+      "kanji": "晶子",
+      "family_kanji": "矢野",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "77",
+        "76"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "81",
+    "data": {
+      "first name": "Genpachi or Motohachi",
+      "last name": "",
+      "gender": "F",
+      "kanji": "元八",
+      "family_kanji": "",
+      "comment": "Multiple pronounciations for those kanji"
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "82"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "82",
+    "data": {
+      "first name": "Iso",
+      "last name": "",
+      "gender": "F",
+      "kanji": "イソ",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "81"
+      ],
+      "children": [
+        "85",
+        "118"
+      ]
+    }
+  },
+  {
+    "id": "83",
+    "data": {
+      "first name": "Yasutaro",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "安太郎",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "85",
+        "118"
+      ]
+    }
+  },
+  {
+    "id": "84",
+    "data": {
+      "first name": "Tama-ichi",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "玉市",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "85",
+    "data": {
+      "first name": "Torakichi",
+      "last name": "Yamasaki",
+      "gender": "M",
+      "kanji": "寅吉",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "83",
+        "82"
+      ],
+      "spouses": [],
+      "children": [
+        "2",
+        "100",
+        "101"
+      ]
+    }
+  },
+  {
+    "id": "86",
+    "data": {
+      "first name": "Mankitchi",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "万吉",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "87"
+      ],
+      "children": [
+        "88",
+        "89",
+        "90",
+        "91",
+        "92"
+      ]
+    }
+  },
+  {
+    "id": "87",
+    "data": {
+      "first name": "Iso",
+      "last name": "",
+      "gender": "F",
+      "kanji": "イソ",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "86"
+      ],
+      "children": [
+        "88",
+        "89",
+        "90",
+        "91",
+        "92"
+      ]
+    }
+  },
+  {
+    "id": "88",
+    "data": {
+      "first name": "Kiwa",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "キワ",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "86",
+        "87"
+      ],
+      "spouses": [
+        "85"
+      ],
+      "children": [
+        "2",
+        "100",
+        "101"
+      ]
+    }
+  },
+  {
+    "id": "89",
+    "data": {
+      "first name": "Waka",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "わか",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "86",
+        "87"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "90",
+    "data": {
+      "first name": "Chiyo",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "千代",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "86",
+        "87"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "91",
+    "data": {
+      "first name": "Shomatsu",
+      "last name": "Yamamoto",
+      "gender": "M",
+      "kanji": "庄松",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "86",
+        "87"
+      ],
+      "spouses": [],
+      "children": [
+        "93",
+        "94",
+        "95",
+        "96",
+        "97"
+      ]
+    }
+  },
+  {
+    "id": "92",
+    "data": {
+      "first name": "Kameno",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "かめの",
+      "family_kanji": "山本",
+      "comment": "Died at 4 years of age"
+    },
+    "rels": {
+      "parents": [
+        "86",
+        "87"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "93",
+    "data": {
+      "first name": "Isako",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "いさ子",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "91",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "94",
+    "data": {
+      "first name": "Tatsu?",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "辰",
+      "family_kanji": "山本",
+      "comment": "Uncertain Kanji and romanization"
+    },
+    "rels": {
+      "parents": [
+        "91",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "95",
+    "data": {
+      "first name": "Eiko",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "栄子",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "91",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "96",
+    "data": {
+      "first name": "Hanako",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "花子",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "91",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "97",
+    "data": {
+      "first name": "Mitsuko",
+      "last name": "Yamamoto",
+      "gender": "F",
+      "kanji": "みつ子",
+      "family_kanji": "山本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "91",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "98",
+    "data": {
+      "first name": "Itaro",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "猪太郎",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "99",
+    "data": {
+      "first name": "Eikichi",
+      "last name": "Hamamoto",
+      "gender": "F",
+      "kanji": "栄吉",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "100"
+      ],
+      "children": [
+        "102",
+        "103",
+        "104",
+        "105",
+        "106"
+      ]
+    }
+  },
+  {
+    "id": "100",
+    "data": {
+      "first name": "Fusa",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "ふさ",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "85",
+        "88"
+      ],
+      "spouses": [
+        "99"
+      ],
+      "children": [
+        "102",
+        "103",
+        "104",
+        "105",
+        "106"
+      ]
+    }
+  },
+  {
+    "id": "101",
+    "data": {
+      "first name": "Eikichi",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "永吉",
+      "family_kanji": "山崎",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "85",
+        "88"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "102",
+    "data": {
+      "first name": "Koichi",
+      "last name": "Hamamoto",
+      "gender": "F",
+      "kanji": "幸一",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "99",
+        "100"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "103",
+    "data": {
+      "first name": "Kamekichi",
+      "last name": "Hamamoto",
+      "gender": "F",
+      "kanji": "亀吉",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "99",
+        "100"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "104",
+    "data": {
+      "first name": "Tazuko",
+      "last name": "Hamamoto",
+      "gender": "F",
+      "kanji": "田鶴子",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "99",
+        "100"
+      ],
+      "spouses": [],
+      "children": [
+        "109",
+        "110"
+      ]
+    }
+  },
+  {
+    "id": "105",
+    "data": {
+      "first name": "Tasuku or Yu",
+      "last name": "Hamamoto",
+      "gender": "F",
+      "kanji": "祐",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "99",
+        "100"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "106",
+    "data": {
+      "first name": "Kazuko",
+      "last name": "Hamamoto",
+      "gender": "F",
+      "kanji": "清子",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "99",
+        "100"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "107",
+    "data": {
+      "first name": "Tsuyako",
+      "last name": "Hamamoto?",
+      "gender": "F",
+      "kanji": "艶子",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "111",
+        "112"
+      ]
+    }
+  },
+  {
+    "id": "108",
+    "data": {
+      "first name": "Kikuchi",
+      "last name": "Hamamoto?",
+      "gender": "F",
+      "kanji": "菊池",
+      "family_kanji": "浜本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [],
+      "children": [
+        "113"
+      ]
+    }
+  },
+  {
+    "id": "109",
+    "data": {
+      "first name": "Fusao",
+      "last name": "Fukuda",
+      "gender": "F",
+      "kanji": "房夫",
+      "family_kanji": "福田",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "104"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "110",
+    "data": {
+      "first name": "Shuzou",
+      "last name": "Fukuda?",
+      "gender": "F",
+      "kanji": "修三",
+      "family_kanji": "福田?",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "104"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "111",
+    "data": {
+      "first name": "Etsumi",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "悦美",
+      "family_kanji": "?",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "107"
+      ],
+      "spouses": [],
+      "children": [
+        "114",
+        "115"
+      ]
+    }
+  },
+  {
+    "id": "112",
+    "data": {
+      "first name": "Minami",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "美浪",
+      "family_kanji": "?",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "107"
+      ],
+      "spouses": [],
+      "children": [
+        "116"
+      ]
+    }
+  },
+  {
+    "id": "113",
+    "data": {
+      "first name": "Kazuko",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "和子",
+      "family_kanji": "?",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "108",
+        "-1"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "114",
+    "data": {
+      "first name": "Kiyoto?",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "聖人",
+      "family_kanji": "?",
+      "comment": "Several ways to pronounce"
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "111"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "115",
+    "data": {
+      "first name": "Shigemitsu?",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "栄光",
+      "family_kanji": "?",
+      "comment": "Several ways to pronounce"
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "111"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "116",
+    "data": {
+      "first name": "Shouji",
+      "last name": "?",
+      "gender": "F",
+      "kanji": "祥爾",
+      "family_kanji": "?",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "112"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "117",
+    "data": {
+      "first name": "Saburo",
+      "last name": "Yamasaki",
+      "gender": "F",
+      "kanji": "三郎",
+      "family_kanji": "山崎",
+      "comment": "Died 11/20/1926 at four years of age"
+    },
+    "rels": {
+      "parents": [
+        "2",
+        "3"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "118",
+    "data": {
+      "first name": "Some",
+      "last name": "Shimamoto",
+      "gender": "F",
+      "kanji": "ソメ ",
+      "family_kanji": "島本",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "83",
+        "82"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "119",
+    "data": {
+      "first name": "Kanzo",
+      "last name": "Nihira",
+      "gender": "M",
+      "kanji": "かんぞ",
+      "family_kanji": "仁平",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "120"
+      ],
+      "children": [
+        "7",
+        "121",
+        "122",
+        "123"
+      ]
+    }
+  },
+  {
+    "id": "120",
+    "data": {
+      "first name": "Tomi",
+      "last name": "Kamoshida",
+      "gender": "F",
+      "kanji": "とみ",
+      "family_kanji": "",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "-1",
+        "-1"
+      ],
+      "spouses": [
+        "119"
+      ],
+      "children": [
+        "7",
+        "121",
+        "122",
+        "123"
+      ]
+    }
+  },
+  {
+    "id": "121",
+    "data": {
+      "first name": "Mitzi",
+      "last name": "Nihira",
+      "gender": "F",
+      "kanji": "",
+      "family_kanji": "仁平",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "119",
+        "120"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "122",
+    "data": {
+      "first name": "Phoebe",
+      "last name": "Nihira",
+      "gender": "F",
+      "kanji": "",
+      "family_kanji": "仁平",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "119",
+        "120"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "123",
+    "data": {
+      "first name": "Kazuo",
+      "last name": "Nihira",
+      "gender": "M",
+      "kanji": "",
+      "family_kanji": "仁平",
+      "comment": ""
+    },
+    "rels": {
+      "parents": [
+        "119",
+        "120"
+      ],
+      "spouses": [],
+      "children": []
+    }
+  }
+]

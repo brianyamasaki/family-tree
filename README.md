@@ -1,23 +1,15 @@
-# Astro Starter Kit: Minimal
+# The Family Tree Project
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is the website for the family tree project. There is a separate repository for how to create the JSON file that gives the creates the data for this family tree.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## URL structure
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| URL | Description |
+|-----|-------------|
+| /   | Landing Page
+| /person | List of all persons in the family tree |
+| /person/# | Page for a specific individual in the family tree |
+| /nearest-relative/ | Page that calculates nearest relatives between two people |
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
@@ -37,7 +29,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

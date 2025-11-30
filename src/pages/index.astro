@@ -1,6 +1,7 @@
 ---
 import Layout from '@layouts/Landing.astro';
 import { SITE_TITLE } from "@src/consts";
+import FamilyTree from '@src/components/FamilyChart';
 ---
 
 <Layout
@@ -20,6 +21,7 @@ import { SITE_TITLE } from "@src/consts";
 	<h2>Search</h2>
 	<p>Search for a name by going to our <a href="/search">Search page</a>.</p>
 
+	<FamilyTree client:idle />
 </Layout>
 
 <style lang="scss">

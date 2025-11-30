@@ -24,6 +24,7 @@ export const ancestorTree = (
   return anc;
 }
 
+// compare each node in tree1 to all the nodes in tree2, looking for a match
 export const compareTrees = (
   tree1: AncestorNode,
   tree2: AncestorNode
